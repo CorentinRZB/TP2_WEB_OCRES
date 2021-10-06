@@ -18,28 +18,49 @@ a {
     text-decoration: none;
 }
 
-@media screen and (max-width: 450px) {
+
+@media screen and (min-width:100px) and (max-width: 450px) {
 
     h1 {font-size:1.5rem;}
     h2 {font-size:1.5rem;}
     h3 {font-size:1.5rem;}
+    article{
+        width: 12rem;
+        font-size:1rem;}
+
 }
-@media screen and (max-width: 540px) {
+
+@media screen and (min-width: 450px) and (max-width: 600px) {
     .share{
         display : none;
     }
-}
-@media screen and (max-width: 600px) {
-    
     h1 {font-size:2rem;}
     h2 {font-size:2rem;}
     h3 {font-size:2rem;}
+    article{
+        width: 12rem;
+        font-size:1.5rem;}
 }
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 600px) and (max-width: 1300px) {
+    .share{
+        display : none;
+    }
+    h1 {font-size:2.5rem;}
+    h2 {font-size:2.5rem;}
+    h3 {font-size:2.5rem;}
+    article{
+        width: 12rem;
+        font-size:1.75rem;}
+}
+
+@media screen and (min-width: 1300px) {
 
     h1 {font-size:3rem;}
     h2 {font-size:3rem;}
     h3 {font-size:3rem;}
+    article{
+        width: 9.5rem;
+        font-size:2rem;}
 }
 
 .wrapper {
